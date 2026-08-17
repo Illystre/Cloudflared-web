@@ -3,6 +3,7 @@ services:
     build: .
     image: cloudflared-web
     container_name: cloudflared-web
+    user: root
     privileged: true
     network_mode: host
     environment:

@@ -1,7 +1,7 @@
 services:
   app:
     build: .
-    image: cloudflared-web
+    image: illystre/cloudflared-web
     container_name: cloudflared-web
     user: root
     privileged: true
